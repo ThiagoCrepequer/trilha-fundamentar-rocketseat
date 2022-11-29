@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF8">
+        <title>Tags semanticas</title>
+    </head>
+    <body>
+        <!-- 
+            Tag <abbr> é usada para abreviações 
+        -->
+        <h1>Abreviações</h1>
+
+        <abbr title="HyperText Markup Language">HTML</abbr>
+
+        <!-- 
+            tags de citações:
+
+            <blockquote>
+            <cite>
+            <q>
+            
+        -->
+        <h1>Citações</h1>
+
+        <blockquote cite="http://google.com">de acordo com o goole.com....</blockquote>
+
+        <a href="http://google.com"><cite>google.com</cite></a>
+
+        a tag q é - <q cite="http://google.com">usada para citações curtas</q> - como foi dito pelo google.
+
+        <!-- 
+            A tag <address> é usada para adicionar o contato de quem criou a pagina html
+        -->
+        <h1>Contato</h1>
+
+        <address>
+            <p>Thiago Crepequer
+            <strong>Brasília, DF</strong>
+            </p>
+        </address>
+
+        <!--
+            lista de descrição
+        -->
+        <h2>Receitas</h2>
+        <dl>
+            <dt>Miojo</dt>
+            <dd>Receita de miojo rápida</dd>
+
+            <dt>Macarrão instantâneo</dt>
+            <dd>Como fazer um macarrão instantâneo rápido e fácil</dd>
+
+            <dt><i>Cup Noodles</i></dt>
+            <dd>Como preparar um macarrão de copo</dd>
+        </dl>
+
+
+        <!--
+            Para escrever códigos (que não serão interpretados) dentro de uma página html é precisao usar algumas tags especiais
+
+            <code>
+
+            <pre>
+
+            obs: os caracteres reservados ainda precisam ser substituídos pelo &;
+        -->
+        <h1>Exemplo de código</h1>
+        <pre>
+            <code>
+                n=0
+                whiile(1&gt;0) {
+                    console.log('infinito + ' + n);
+                    n++
+                }
+            </code>
+        </pre>
+
+        <!--
+            <div> -> usado para criar blocos
+            
+            <span> -> usado para identificar parte do código sem criar um novo bloco
+        -->
+    </body>
+</html>
+
