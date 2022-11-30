@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Apenas pra separar e deixar mais claro o href do menu -->
+    <style>
+        h1.titulo {
+          padding-top: 100px;  
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>MENU</h1>
+    <ul>
+        <!-- # no href redireciona para o id de algum elemento da mesma página -->
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="$saibamais">Saiba mais</a></li>
+    </ul>
+
+    <h1 id="cardapio" class="titulo">Cardápio</h1>
+    <ul>
+        <h3>Pizzas</h3>
+        <li>Calabresa</li>
+        <li>Mussarela</li>
+        <li>Frango</li>
+        <li>Portuguesa</li>
+
+        <h3>Pratos Feitos</h3>
+        <li>Strogonoff com batata palha</li>
+        <li>Frango empanado</li>
+        <li>Bife acebolado</li>
+        <li>Frango frito</li>
+
+        <h3>Bebidas</h3>
+        <li>Coca-Cola</li>
+        <li>Sprite</li>
+        <li>Fanta Laranja</li>
+        <li>Guaraná Minerio</li>
+    </ul>
+
+    <h1 id="localizacao" class="titulo">Localização</h1>
+
+    <!-- imagens também podem ser usadas na tag <a> -->
+    <a href="http://google.com">
+        <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-global-icone_53876-9267.jpg?w=826&t=st=1669833429~exp=1669834029~hmac=9cf5502a7a24c6097da9bc07743a58a818eb4d02bba0e58fd4b0afc56a98e183">
+    </a>
+
+    <h1 id="contato" class="titulo">Contato</h1>
+    <ul>
+        <!-- mailto:(email) usado para fazer um link que redireciona para um email -->
+        <li><a href="mailto:thiago.crepequer@hotmail.com">thiago.crepequer@hotmail.com</a></li>
+
+        <!-- tel: semelhante ao mailto mas para telefone -->
+        <li><a href="tel:+5561985501196">(61)985501196</a></li>
+
+        <!-- target="_blank" usado para abrir o link em outra página -->
+        <li><a href="https://www.linkedin.com/in/thiago-crepequer/" target="_blank">Meu linkedin</a></li>
+    </ul>
+
+    <h1 id="saibamais" class="titulo" >Saiba mais</h1>
+    <!-- 
+        É possivel caminhar entre os arquivos so projeto sem preciar usar o link dessa pagina 
+        Caso o arquivo esteja em outra pasta basta usar (pasta)/(nome do arquivo) e para voltar basta usar ../(pasta ou arquivo)
+    -->
+    <ul>
+        <li><a href="listas.html">Listas</a></li>
+        <li><a href="tags-semanticas.html">Tags semanticas do html</a></li>
+    </ul>
+</body>
+</html>
