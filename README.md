@@ -5,7 +5,7 @@ Esse repositório tem como objetivo documentar meu avanço pessoal nos estudos d
 ### Tópicos concluídos
 
 - [x]  Ambiente Dev
-- [ ]  Guia estelar HTML
+- [ ]  [Guia estelar HTML](https://github.com/ThiagoCrepequer/trilha-fundamentar-rocketseat/tree/main/guia-estelar-html)
 - [ ]  Guia estelar CSS
 - [ ]  Nem tudo são Pixels
 - [ ]  Uma caixa dentro da outra
