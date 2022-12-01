@@ -17,7 +17,6 @@ Esse repositório tem como objetivo documentar meu avanço pessoal nos estudos d
 - [ ]  Guia estelar de Javascript
 - [ ]  HTML que faz sentido para todos
 - [ ]  Nem só de classes ou IDs
-
 - [ ]  Alinhando os planetas
 - [ ]  Pilotando com a DOM
 - [ ]  Terminal
