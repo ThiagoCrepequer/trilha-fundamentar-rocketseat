@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+
+    <style>
+        h2 {
+            margin: 30px;
+            padding: 30px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1 class="titulo" id="my-titulo">Título</h1>
+        <h2>Estilo pela tag HTML &lt;style&gt;</h2>
+        <button>Enviar</button>
+    </div>
+<!-- Há uma hierarquia entre os parametros html nos códigos CSS:
+
+    tag
+    class
+    id
+
+    obs: não deve se usar a tag !important, somente em alguns casos específicos
+--> 
+    <h1 style="color: blue;">
+        Estilo em linha
+        <strong style="color: green">Strong</strong>
+    </h1>
+</body>
+</html>
