@@ -8,7 +8,7 @@ Esse repositório tem como objetivo documentar meu avanço pessoal nos estudos d
 - [x]  [Guia estelar HTML](https://github.com/ThiagoCrepequer/trilha-fundamentar-rocketseat/tree/main/guia-estelar-html)
 - [x]  [Guia estelar CSS](https://github.com/ThiagoCrepequer/trilha-fundamentar-rocketseat/tree/main/guia-estelar-css.html)
 - [x]  [Nem tudo são Pixels](https://github.com/ThiagoCrepequer/trilha-fundamentar-rocketseat/tree/main/nem-tudo-s%C3%A3o-pixels)
-- [ ]  Uma caixa dentro da outra
+- [x]  [Uma caixa dentro da outra](https://github.com/ThiagoCrepequer/trilha-fundamentar-rocketseat/tree/main/uma-caixa-dentro-da-outra)
 - [ ]  Agora sim, cores
 - [ ]  Posso ver e ouvir o HTML
 - [ ]  Posicionando foguetes
