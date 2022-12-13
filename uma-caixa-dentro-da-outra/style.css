@@ -1,0 +1,22 @@
+/* O border-box serve para que a contabilização do tamanho de uma caixa seja a partir da borda, ou seja, o padding não irá aumentar o tamanho dela.*/
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+}
+.com_border_box {
+    box-sizing: border-box;
+}
+
+.align_center {
+    display: flex;
+    justify-content: center;
+}
+
+.inline {
+    margin: 40px;
+    display: inline;
+}
