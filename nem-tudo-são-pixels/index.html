@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nem tudo são pixels</title>
+</head>
+<body>
+    <!--
+        Tipos numérios:
+
+        Integer - Número inteiro
+        Number - Número real
+        Dimension - É um número + unidade
+        Percentagem - Uma porcentagem de algo
+    
+        Unidades mais comuns:
+
+        length - Um valor de distância
+        angle - Ângulo
+        time - Tempo
+        resolution - resolução de dispositivos 
+    -->
+
+    <!--
+        Distâncias absolutas:
+
+        1cm - 0 - 1px
+
+        Distâncias relativas:
+
+        em - relativo ao elemento pai
+        rem - relativo ao root/html
+        vw - relativo ao width da viewport
+        vh - relativo ao height da viewport
+
+    -->
+
+    <ul>
+        <li>Lista 01</li>
+        <li>Lista 02</li>
+        <li>Lista 03</li>
+        <ul>
+            <li>Lista 01</li>
+            <li>Lista 02</li>
+            <li>Lista 03</li>
+            <ul>
+                <li>Lista01</li>
+            </ul>
+        </ul>
+    </ul>
+
+    <!-- 
+        A fonte do li vai diminuindo pois ele é relativo ao tamanho do elemento pai que por sua vez é relativo ao outro elemento pai
+    -->
+
+    <div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+li {
+    font-size: 80%;
+}
+
+.box {
+    width: calc(50% - 20px);
+    height: 500px;
+    background-image: url('https://www.petz.com.br/blog/wp-content/uploads/2021/03/como-tirar-foto-de-gato-1.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.box::after {
+    content: "Gatinho fofo";
+    color: white;
+}

@@ -6,8 +6,8 @@ Esse repositório tem como objetivo documentar meu avanço pessoal nos estudos d
 
 - [x]  Ambiente Dev
 - [x]  [Guia estelar HTML](https://github.com/ThiagoCrepequer/trilha-fundamentar-rocketseat/tree/main/guia-estelar-html)
-- [ ]  Guia estelar CSS
-- [ ]  Nem tudo são Pixels
+- [x]  Guia estelar CSS
+- [x]  Nem tudo são Pixels
 - [ ]  Uma caixa dentro da outra
 - [ ]  Agora sim, cores
 - [ ]  Posso ver e ouvir o HTML
