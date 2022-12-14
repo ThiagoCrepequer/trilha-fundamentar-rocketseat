@@ -1,0 +1,16 @@
+div {
+    font-size: 30px;
+    color: red;
+}
+
+.azul {
+    color: rgb(0, 0, 255)
+}
+
+.laranja {
+    color: #ec8e13;
+}
+
+.cinza {
+    color: rgb(134, 134, 134);
+}
